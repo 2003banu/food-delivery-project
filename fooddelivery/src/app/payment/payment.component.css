@@ -1,0 +1,62 @@
+
+
+/* Style for the image */
+.head img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Style for the payment section */
+.head1 {
+    text-align: center;
+   
+}
+
+.head1 h1 {
+    color: blue;
+}
+
+.head1 button {
+    display: inline-block;
+    padding: 20px 300px;
+    background-color:blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    position: relative;
+    text-align: center;
+    color: #fff; /* Set text color to white */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    background-color:blue;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px; 
+}
+.button {
+    background-color:red;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px; 
+}

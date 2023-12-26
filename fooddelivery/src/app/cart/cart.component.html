@@ -1,0 +1,32 @@
+<ng-container *ngIf="true">
+    <div class="card-table">
+        <div class="cart-items">
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>ItemName</th>
+                        <th>ItemDescription</th>
+                        <th>price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="cart-items" *ngFor="let item of items">
+                        <td><img src="{{item.image}}" height="100" width="100"></td>
+                        <td><span>{{item.productname}}</span></td>
+                        <td><span>{{item.description}}</span></td>
+                        <td><span>price:</span>${{item.price}}</td>
+                          
+                        <td>
+                            <button class="btn btn-success">Delete</button>
+                        </td>
+                </tbody>
+            </table>
+            <td>
+                <button class="btn btn-success"(click)="clearCart()">Clear</button>
+                <button class="button" routerLink="/payment" >proceed to payment</button>
+            </td>
+        </div>
+    </div>
+</ng-container>

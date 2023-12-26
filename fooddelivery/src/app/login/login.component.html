@@ -1,0 +1,42 @@
+    
+    <div class="container col-md-6" style="background-color:sandybrown;">
+    <h1 style="color:green;">Login</h1>
+     <form (ngSubmit)="loginRegister()">
+   
+       
+       <div class="mb-3">
+         <label for="exampleFormControlInput1" class="form-label">Email</label>
+         <input type="email" class="form-control" id="email" name="email" [(ngModel)] ="user.email"  >
+       </div>
+
+        <div class="mb-3">
+         <label for="exampleFormControlInput1" class="form-label">Password</label>
+         <input type="password" class="form-control" id="password" name="password" [(ngModel)] ="user.password">
+       </div>
+
+       <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Address</label>
+        <input type="address" class="form-control" id="address" name="address" [(ngModel)] ="user.address">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">City</label>
+        <input type="city" class="form-control" id="city" name="city" [(ngModel)] ="user.city">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">State</label>
+        <input type="state" class="form-control" id="city" name="state" [(ngModel)] ="user.state">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Phonenumber</label>
+        <input type="phone" class="form-control" id="phonenumber" name="state" [(ngModel)] ="user.phonenumber">
+      </div>
+        
+       <div>
+       <button type="submit" class="btn btn-success">Login</button>
+    </div>
+
+       </form>
+       </div>

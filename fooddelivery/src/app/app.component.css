@@ -1,0 +1,108 @@
+input[type=password]{
+
+    width:30%;
+    height: 1px;
+    padding: 15px;
+    margin: 5px 0px 22px 0px;
+    border: 2px solid cyan;
+
+}
+input[type=password]:hover{
+
+    width:30%;
+    height: 1px;
+    padding: 15px;
+    margin: 5px 0px 22px 0px;
+    border: 2px solid black;
+
+}
+input[type=text]{
+
+    width:30%;
+    height: 1px;
+    padding: 15px;
+    margin: 5px 0px 22px 0px;
+    border: 2px solid cyan;
+    
+   
+}
+input[type=text]:hover{
+
+    width:30%;
+    height: 1px;
+    /* padding: 15px; */
+    /* margin: 5px 0px 22px 0px; */
+    border: 2px solid rgb(14, 22, 22);
+    
+   
+}
+sup{
+    color: red;
+}
+
+.sub{
+    background-color: rgb(0, 115, 255);
+    color: antiquewhite;
+    padding: 5px 60px;
+    margin: 10px;
+    width: 15px;
+    font-size: large;
+
+    
+}
+
+
+
+
+/* psuedo class */
+a:link{
+    color: rgb(191, 222, 79);
+    
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: pink;
+}
+a:focus{
+    color:rgb(9, 255, 0);
+}
+a:active{
+    color: darkgreen;
+
+}
+
+
+p{
+    line-height:1.5em ;
+    text-indent:20px;
+    text-indent:100px;
+   
+    font-size: 1.2em;
+    border: 2px solid cyan;
+
+}
+
+
+p:first-letter{
+   font-size: 3em;
+   color: aqua;
+}
+
+.para{
+
+    margin: 20%;
+    padding: 5%;
+    border: 40px solid cyan;
+    
+}
+   
+
+
+
+
+
+
+
+

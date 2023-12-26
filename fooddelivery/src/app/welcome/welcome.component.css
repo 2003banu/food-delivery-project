@@ -1,0 +1,27 @@
+body {
+  margin: 0; 
+  padding: 0; 
+}
+
+.header {
+  position: relative; 
+  text-align:center;
+  color:black; 
+}
+.overlay-text{
+  position: absolute;
+  top:50%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+}
+
+.btn {
+  position: absolute; 
+  bottom: 5px; 
+  right: 40px; 
+  transform: translateY(-50%); 
+  background-color: yellow; 
+  color: black;
+  padding: 10px 20px; 
+  text-decoration: none; 
+}

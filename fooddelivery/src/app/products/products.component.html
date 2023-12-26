@@ -1,0 +1,17 @@
+<div class= "badge bg-warning" style="color:black;">Available items</div>
+<br>
+<br>
+<div class="container" style="background-color: lightslategray;">
+    <div class="row">
+        <ng-container *ngFor="let item of product">
+        <div class="card col-md-3" style="background-color: white;">
+            <img src={{item.image}}>
+            <h2>{{item.productname}}</h2>
+            <p>{{item.description}}</p>
+            <p><strong>price:</strong>${{item.price}}</p>
+            <button class="btn btn-success" (click)="addToCart(item)">Add to cart</button>
+        </div>
+    </ng-container>
+    </div>
+</div>
+
